@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(187, 187, 187);
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+.accordian{
+    background-color: white;
+    text-align: center;
+    /*padding: 4px 16px;*/
+    margin-bottom: 16px;
+    border-radius: 4px;
+    box-shadow: 2px 1px 5px 2px rgb(202, 83, 83);
+    cursor: pointer;
+}
+.question{
+    display: flex;
+   padding-left: 5%; 
+    font-weight: bold;    
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+p{
+    font-weight: bold;
+}
+.icon{
+    margin-left:3%;
+    transition: transform 0.2s;
+    padding-top: 20px;
+}
+.icon.active{
+    transform: rotate(-180deg);
+}
+.answer{
+    color:blue;
+    text-align: center;
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+    font-size: 20px;
+}
+
