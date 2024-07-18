@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Accordian</h1>
+    <div class="accordian">
+        <div class="question">
+             <h2>What is JavaScript , and  What is javaS &  why is it used?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-caret-down-fill" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg></div>
+        <div class="answer">
+            <p>JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+
+                JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+                
+                </p>
+        </div>
+    </div>
+    <div class="accordian">
+        <div class="question">
+            <h2>What is React and Rules of hooks?. React DOM Render?</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+        </div>
+        <div class="answer">
+            <p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
+
+                React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality. A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.
+                There are two rules of hooks[22] which describe the characteristic code patterns that hooks rely on:
+
+                "Only call hooks at the top level" — don't call hooks from inside loops, conditions, or nested statements so that the hooks are called in the same order each render.
+                "Only call hooks from React functions" — don't call hooks from plain JavaScript functions so that stateful logic stays with the component.
+                Although these rules can't be enforced at runtime, code analysis tools such as linters can be configured to detect many mistakes during development. The rules apply to both usage of Hooks and the implementation of custom Hooks, which may call other Hooks.</p>
+        </div>
+    </div>
+    <div class="accordian">
+        <div class="question">
+            <h2>What is Node js?,Why Node.js?, What Can Node.js Do .?</h4>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon  bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+        </div>
+        <div class="answer">
+            <p>
+                Node.js is an open source server environment<br>
+Node.js is free<br>
+Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)<br>
+Node.js uses JavaScript on the server<br>
+A common task for a web server can be to open a file on the server and return the content to the client.
+
+Here is how PHP or ASP handles a file request:
+
+Sends the task to the computer's file system.
+Waits while the file system opens and reads the file.
+Returns the content to the client.
+Ready to handle the next request.
+Here is how Node.js handles a file request:
+
+Sends the task to the computer's file system.
+Ready to handle the next request.
+When the file system has opened and read the file, the server returns the content to the client.
+Node.js eliminates the waiting, and simply continues with the next request.
+
+Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
+<br>
+Node.js can generate dynamic page content
+Node.js can create, open, read, write, delete, and close files on the server
+Node.js can collect form data
+Node.js can add, delete, modify data in your database
+
+
+            </p>
+        </div>
+    </div>
+    
+    <div class="accordian">
+        <div class="question">
+            <h2>What is My Sql ,Who Use,Show Data On Your Web Site .?</h4>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="icon  bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+    </div>
+    <div class="answer">
+    <p>MySQL is a relational database management system
+        MySQL is open-source
+        MySQL is free
+        MySQL is ideal for both small and large applications
+        MySQL is very fast, reliable, scalable, and easy to use
+        MySQL is cross-platform
+        MySQL is compliant with the ANSI SQL standard
+        MySQL was first released in 1995
+        MySQL is developed, distributed, and supported by Oracle Corporation
+        MySQL is named after co-founder Monty Widenius's daughter: My
+        <br>
+        To build a web site that shows data from a database, you will need:
+        An RDBMS database program (like MySQL)
+        A server-side scripting language, like PHP
+        To use SQL to get the data you want
+        To use HTML / CSS to style the page
+</p>
+</div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
